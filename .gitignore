@@ -5,8 +5,13 @@ __pycache__/
 
 # Virtual environments
 .venv/
+.venv-*/
 venv/
 env/
+
+# Environment variables and local secrets
+.env
+.env.*
 
 # IDE settings
 .vscode/
